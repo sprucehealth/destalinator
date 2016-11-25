@@ -1,0 +1,13 @@
+branch-defaults:
+  master:
+    environment: riskybiddness-destalinator
+    group_suffix: null
+global:
+  application_name: destalinator
+  branch: null
+  default_ec2_keyname: jon-north-california
+  default_platform: Python 2.7
+  default_region: us-west-1
+  profile: eb-cli
+  repository: null
+  sc: git
