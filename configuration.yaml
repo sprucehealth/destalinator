@@ -29,11 +29,12 @@ announce_channel: "x-new-channels"
 control_channel: "x-destalinator-config"
 
 # Where to send destalinator debug logs
-log_channel: "x-destalinator-log"
+log_channel: "x-destalinator-log-d"
 
 # Channels to ignore when archiving (i.e. they can be silent and not get archived)
 ignore_channels:
   - x-destalinator-log
+  - x-destalinator-log-d
   - x-new-channels
 
 # Regular expression patterns for additional channels to ignore during archiving
