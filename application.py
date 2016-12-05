@@ -20,7 +20,7 @@ application.debug = isDebugMode
 print('Destalinator application began running')
 
 @application.route('/warner', methods=['POST'])
-def warner():
+def warner_route():
 
     print('warner started')
 
